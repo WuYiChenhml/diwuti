@@ -3,8 +3,8 @@ module.exports = function main(sequence) {
     
     var sum = 0;
     var length = sequence.length;
-    var max = sequence.[0];
-    var min = sequence.[0];
+    var max = 0;
+    var min = 0;
 for(var i = 0 ; i < length ; i ++)
 {
     sum = sum + sequence[i];
