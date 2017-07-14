@@ -11,7 +11,8 @@ for(var i = 0 ; i < sequence.length ; i ++)
 }
 
 var average = sum / length;
-    console.log('o) 最小值 = ' + min '/n'+'o) 最大值 = ' + max '/n'+'o) 元素数量 = ' + length '/n'+'o) 平均值 = ' + average);
+    var str = 'o) 最小值 = ' + min '/n'+'o) 最大值 = ' + max '/n'+'o) 元素数量 = ' + length '/n'+'o) 平均值 = ' + average
+    console.log(str);
 };
     
 
