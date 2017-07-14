@@ -2,10 +2,10 @@ var sequence = [6, 9, 15, -2, 92, 11];
 module.exports = function main(sequence) {
     
     var sum = 0;
-    var length = sequence.length;
+    var length = length;
     var max = 0;
     var min = 0;
-for(var i = 0 ; i < length ; i ++)
+for(var i = 0 ; i < sequence.length ; i ++)
 {
     sum = sum + sequence[i];
     if(max < sequence.[i])
