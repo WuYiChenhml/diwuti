@@ -1,5 +1,6 @@
-module.exports = function main() {
-    let sequence = [6, 9, 15, -2, 92, 11];
+var sequence = [6, 9, 15, -2, 92, 11];
+module.exports = function main(sequence) {
+    
     var sum = 0;
     var length = sequence.length;
     var max = sequence.[0];
