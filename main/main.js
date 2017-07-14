@@ -3,19 +3,11 @@ module.exports = function main(sequence) {
     
     var sum = 0;
     var length = length;
-    var max = 0;
-    var min = 0;
+    var max = Math.max.apply(Math, sequence);
+    var min = Math.min.apply(Math, sequence);
 for(var i = 0 ; i < sequence.length ; i ++)
 {
     sum = sum + sequence[i];
-    if(max < sequence.[i])
-    {
-        max = sequence.[i];
-    }
-    else if(min > sequence.[i])
-    {
-        min = sequence.[i];
-    }
 }
 
 var average = sum / length;
