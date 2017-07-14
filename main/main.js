@@ -1,18 +1,26 @@
 module.exports = function main() {
-    let sequence = new Sequence([6, 9, 15, -2, 92, 11]);
-    console.log(`o) 最小值 = ${sequence.minimum()}
-// Write your code here
-`);
+    let sequence = [6, 9, 15, -2, 92, 11];
+    var sum = 0;
+    var length = sequence.length;
+    var max = sequence.[0];
+    var min = sequence.[0];
+for(var i = 0 ; i < length ; i ++)
+{
+    sum = sum + sequence[i];
+    if(max < sequence.[i])
+    {
+        max = sequence.[i];
+    }
+    else if(min > sequence.[i])
+    {
+        min = sequence.[i];
+    }
+}
+
+var average = sum / length;
+    console.log('o) 最小值 = '+min'/n'
+                'o) 最大值 = '+max'/n'
+                'o) 元素数量 = '+length'/n'
+                'o) 平均值 = '+average);
 };
 
-class Sequence {
-  constructor(input) {
-    // Write your code here
-  }
-
-  minimum() {
-    // Write your code here
-  }
-
-  // Write your code here
-}
